@@ -7,10 +7,12 @@ function btnclick(obj){
   var val=obj.value;
   document.getElementById('input').value+= val;
 }
+
 function btnC(){
   num1=num2=opr=result="";
   document.getElementById("input").value="";
 }
+
 function operation(obj){
   num1=document.getElementById('input').value;
   opr= obj.value;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment12</title>
+    <script type="text/javascript" src="myscript.js"> </script>
+  </head>
+  <body>
+    <h1>Railway Reservation</h1>
+    <h3>Sign Up Form</h3>
+    <form action="" method="post">
+      First name:<input type="text" id="fname" required><br><br>
+      Last name: <input type="text" id="lname"><br><br>
+      E-mail: <input type="email" id="email" autocomplete="off" required><br><br>
+      Contact no. : <input type="text" id="contact" pattern="[0-9]{10}" maxlength="10"required><br><br>
+      Password: <input type="password" id="password" required><br><br>
+      Gender:
+      <div>
+        <input type="radio" id="male" name="gender" value="male"> Male<br>
+        <input type="radio" id="female" name="gender" value="female"> Female<br>
+        <input type="radio" id="other" name="gender" value="other"> Other
+      </div>
+      Date of Birth:<input type="date" id="bday" required>
+      <input type="submit" name="Submit" value="sign up" onclick="myfunc()">
+    </form>
+    <p id='demo'></p>
+  </body>
+</html>
